@@ -1,24 +1,15 @@
 #include "main.h"
 
-void print_alphabet(void);
+
 /**
- * main - Prints the alphabet.
- *
- * Return: Always 0 (Success)
+ * print_alphabet - Prints the alphabet in lower case
  */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 void print_alphabet(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
-	for (i = 0; i < 26; i++)
-	{
-		putchar(alp[i]);
-	}
-	putchar('\n');
-	return (0);
+	char la;
+
+	for (la = 'a'; la < 'z'; la++)
+		_putchar(la);
+
+	_putchar('\n');
 }
