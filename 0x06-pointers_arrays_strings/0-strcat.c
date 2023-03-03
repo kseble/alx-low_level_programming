@@ -1,5 +1,5 @@
 #include "main.h"
-
+#
 /**
  * _strcat - concatenates the string pointed by @src, including the terminate
  *          null byte, to the end of the string pointed to by @dest.
