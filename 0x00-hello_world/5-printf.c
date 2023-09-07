@@ -1,7 +1,11 @@
 #include <stdio.h>
-/*
- * main- entry point
- * return: zero(success)
+
+/**
+ * main - Entry point
+ *
+ * Description: program that prints given sentence
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
