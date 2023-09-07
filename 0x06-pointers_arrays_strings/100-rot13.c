@@ -9,8 +9,8 @@
 char *rot13(char *str)
 {
 	int indx1 = 0, indx2;
-	char alphabet[52] = {'A', 'B', 'C', 'D', 'E', 'F', 
-		             'G', 'H', 'I', 'J', 'K', 'L',
+	char alphabet[52] = {'A', 'B', 'C', 'D', 'E', 'F',
+		'G', 'H', 'I', 'J', 'K', 'L',
 			     'M', 'N', 'O', 'P', 'Q', 'R',
 			     'S', 'T', 'U', 'V', 'W', 'X',
 			     'Y', 'Z', 'a', 'b', 'c', 'd',
@@ -18,8 +18,8 @@ char *rot13(char *str)
 			     'k', 'l', 'm', 'n', 'o', 'p',
 			     'q', 'r', 's', 't', 'u', 'v',
 			     'w', 'x', 'y', 'z'};
-	char rot13key[52] = {'N', 'O', 'P', 'Q', 'R', 'S', 
-                             'T', 'U', 'V', 'W', 'X', 'Y',
+	char rot13key[52] = {'N', 'O', 'P', 'Q', 'R', 'S',
+		'T', 'U', 'V', 'W', 'X', 'Y',
 			     'Z', 'A', 'B', 'C', 'D', 'E',
 			     'F', 'G', 'H', 'I', 'J', 'K',
 			     'L', 'M', 'n', 'o', 'p', 'q',
@@ -30,7 +30,7 @@ char *rot13(char *str)
 
 	while (str[indx1])
 	{
-		for (indx2 = 0; indx2 < s2; indx2++)
+		for (indx2 = 0; indx2 < 52; indx2++)
 		{
 			if (str[indx1] == alphabet[indx2])
 			{
